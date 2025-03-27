@@ -10,17 +10,47 @@
 ## Descripción del Proyecto
 
 **Problema:**  
-> _Añadir aquí la descripción del reto cuando sea revelado._
+> El objetivo de este reto es desarrollar un asistente virtual de inteligencia artificial que ayude a los clientes a negociar compromisos de pago ajustados a su situación financiera.
 
 **Nuestra Solución:**  
-> _Explicación breve sobre la solución propuesta._
+> Implementación de un Agente Multiusos mediante OpenAI
+
+## Pipeline del código CHATBOT
+
+**Carga de librerías y configuración de API:**
+
+> Se instala y configura la API de OpenAI.
+
+> Se importan librerías como pandas, numpy y openai.
+
+**Carga de plantillas de conversación:**
+
+> Se define un diccionario llamado plantillas1 que contiene respuestas tipo (templates) para distintas situaciones (ej. prejuridico, administrativo, negociacion_cuotas, etc).
+
+**Embeddings de plantillas:**
+
+> Se genera un embedding para cada plantilla usando el modelo text-embedding-ada-002.
+
+> Estos embeddings se almacenan en una lista como base de referencia.
+
+**Carga del dataset:**
+
+> Se sube un archivo CSV llamado negociaciones_chatbot (5).csv con columnas como Mensajes Cliente y Mensajes Agente.
+
+**Detección de tipo de plantilla:**
+
+> Se calcula el embedding de un mensaje nuevo del cliente.
+
+> Luego se compara con los embeddings de las plantillas usando similitud del coseno.
+
+> Se selecciona la plantilla más similar como respuesta adecuada.
 
 ## Tecnologías utilizadas
 
 - **Python**
-- **Java**
-- **React**
-- **Data Manipulation**
+- **Pandas**
+- **Matplotlib y Seaborn**
+- **Open AI**
 
 ## Instalación y configuración
 
@@ -31,5 +61,5 @@ git clone https://github.com/Tomaslopera/Hackathon_Sistecredito.git
 
 ### Instalar dependencias
 ```bash
-pip install 
+pip install pandas matplotlib seaborn openai
 ```
