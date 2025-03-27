@@ -51,6 +51,7 @@
 - **Pandas**
 - **Matplotlib y Seaborn**
 - **Open AI**
+- **Gradio**
 
 ## Instalación y configuración
 
