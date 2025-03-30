@@ -49,7 +49,7 @@
 
 - **Python**
 - **Pandas**
-- **Matplotlib y Seaborn**
+- **Matplotlib**
 - **Open AI**
 - **Gradio**
 
