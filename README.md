@@ -53,6 +53,7 @@
 - **Seaborn**
 - **Open AI**
 - **Gradio**
+- **Unidecode**
 
 ## Instalación y configuración
 
@@ -63,5 +64,5 @@ git clone https://github.com/Tomaslopera/Hackathon_Sistecredito.git
 
 ### Instalar dependencias
 ```bash
-pip install pandas matplotlib seaborn openai gradio
+pip install pandas matplotlib seaborn openai gradio unidecode
 ```
