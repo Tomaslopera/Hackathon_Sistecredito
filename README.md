@@ -50,6 +50,7 @@
 - **Python**
 - **Pandas**
 - **Matplotlib**
+- **Seaborn**
 - **Open AI**
 - **Gradio**
 
