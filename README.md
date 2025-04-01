@@ -1,5 +1,7 @@
 # Hackathon Sistecredito 4ta Versión 2025
 
+**Fecha:** 26 de marzo 2025
+
 ## Integrantes
 > Pablo García
 
